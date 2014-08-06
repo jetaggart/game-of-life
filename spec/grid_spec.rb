@@ -1,4 +1,4 @@
-require '../src/grid.rb'
+require_relative '../lib/grid.rb'
 
 # 2 or 3 live neighbors => stay alive
 # < 2 live neighbors => die of loneliness
